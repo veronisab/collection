@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+    <script src="script.js"></script>
+    <link rel="stylesheet" href="/style.css">
+    <title>JavaScript</title>
+</head>
+<body>
+    <header id="header"></header>
+
+    <main>
+        <h1>Javascript  - Add error message</h1>
+        <section>
+      <ul>
+        <li>add <code>onClick="purchase()"</code> to button</li>
+        <li>add <code>&lt;p id="error&gt;&lt;/p&gt;</code></li>
+     
+    </li>
+      </ul>
+      And JavaScript:
+        <pre>
+            <code>
+        let errorMsg = document.getElementById("error")
+        
+        function purchase() {
+            errorMsg.textContent = "Something went wrong, please try again"
+        }
+        console.log(error)
+        
+</code>
+</pre>
+</section>
+</main>
+</body>
+</html>

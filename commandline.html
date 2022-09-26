@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+    <script src="script.js"></script>
+    <link rel="stylesheet" href="/style.css">
+    <title>Command line</title>
+</head>
+<body>
+    <header id="header"></header>
+
+    <main>
+        <section>
+            <h1>Command line</h1>
+            <h2>Basics</h2>
+            <p>Create file</p>
+            <pre><code>touch index.html</code></pre>
+            <p>Create folder</p>
+            <pre><code>mkdir images</code></pre>
+            <h2>GitHub</h2>
+            <p> …or push an existing repository from the command line</p>
+            <pre><code>git remote add origin https://github.com/veronisab/collection.git
+git branch -M main
+git push -u origin main</code></pre>
+            <p>Remove remote</p>
+            <pre><code>git remote remove NAME</code></pre>
+            <p>Basic workflow</p>
+            <pre><code>git pull
+git status
+git add .
+git commit -m"add files"
+git push</code></pre>
+    
+        </section>

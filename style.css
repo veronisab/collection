@@ -1,0 +1,89 @@
+:root {
+    --vlightpurple: #e7d5ef;
+    --lightpurple: #9d7adf;
+    --pink:#e0479e;
+    --darkpurple:#4a306d;
+    --darkblue:#0e273c;
+}
+
+body {
+    background: #FFF;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+    height: 100vh;
+}
+
+h1 {
+    font-size: 2em;
+}
+
+h1, h2 {
+    font-family: 'Courier New', Courier, monospace;
+}
+
+a, a:visited {
+    text-decoration: none;
+    color: var(--pink);
+    font-family: Arial, Helvetica, sans-serif;
+    transition: 0.4s;
+    cursor: pointer;
+}
+
+a:hover {
+    color: var(--lightpurple)
+}
+
+header {
+    display: inline-block;
+    width: 100%;
+    position: fixed;
+    top: 0px;
+    padding: 20px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+section {
+    width: 700px;
+    max-width: 700px;
+}
+
+pre {
+    background-color: var(--vlightpurple);
+    padding: 10px;
+}
+
+  /* Dropdown Content (Hidden by Default) */
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #fff;
+    min-width: 200px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  /* Links inside the dropdown */
+  .dropdown-content a {
+    color: #000;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    border-bottom: 1px dashed var(--vlightpurple);
+  }
+  
+  /* Change color of dropdown links on hover */
+  .dropdown-content a:hover {
+    background-color:var(--vlightpurple);
+    color: var(--darkpurple);}
+  
+  /* Show the dropdown menu on hover */
+  .dropdown:hover .dropdown-content {display: block;}
+  

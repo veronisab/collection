@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+    <script src="script.js"></script>
+    <link rel="stylesheet" href="/style.css">
+    <title>Dropdown</title>
+</head>
+<body>
+    <header id="header"></header>
+
+    <main>
+        <h1>Dropdown</h1>
+        <section>
+
+            <p>HTML:</p>
+            <pre><code>
+&lt;div class="dropdown"&gt;
+    &lt;a href="/html.html"&gt;HTML&lt;/a&gt;
+    &lt;div class="dropdown-content"&gt;
+        &lt;a href="html-document.html"&gt;Document setup&lt;/a&gt;
+        &lt;a href="stylesheet.html"&gt;Linking a stylesheet&lt;/a&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+            </code></pre>
+            <p>CSS:</p>
+            <pre>
+    <code>
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #fff;
+    min-width: 200px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+    color: #000;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    border-bottom: 1px dashed var(--vlightpurple);
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {
+    background-color:var(--vlightpurple);
+    color: var(--darkpurple);}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {display: block;}
+</code>
+</pre>
+</section>
+</main>
+</body>
+</html>
